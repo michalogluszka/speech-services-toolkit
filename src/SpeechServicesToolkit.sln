@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechServicesToolkit.Authorization", "SpeechServicesToolkit.Authorization\SpeechServicesToolkit.Authorization.csproj", "{5C7288B6-F6E9-4EFD-A33F-3BDC1A6A976C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechServicesToolkit.TTS", "SpeechServicesToolkit.TTS\SpeechServicesToolkit.TTS.csproj", "{30FCB3A7-90D3-49AD-AFDB-D013E49B521A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5C7288B6-F6E9-4EFD-A33F-3BDC1A6A976C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C7288B6-F6E9-4EFD-A33F-3BDC1A6A976C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C7288B6-F6E9-4EFD-A33F-3BDC1A6A976C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FCB3A7-90D3-49AD-AFDB-D013E49B521A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FCB3A7-90D3-49AD-AFDB-D013E49B521A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FCB3A7-90D3-49AD-AFDB-D013E49B521A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FCB3A7-90D3-49AD-AFDB-D013E49B521A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
