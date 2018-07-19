@@ -7,7 +7,7 @@ namespace SpeechServicesToolkit.TTS.Http
 {
     class TTSRequestBuilder
     {
-        public TTSRequest Build(TTSRequestParameters parameters)
+        public TTSRequest Build(TalkerParameters parameters)
         {
             var request = new TTSRequest();            
 

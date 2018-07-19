@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SpeechServicesToolkit.TTS
 {
-    public class TTSRequestParameters
+    public class TalkerParameters
     {
         /// <summary>
         /// Gets or sets the request URI.

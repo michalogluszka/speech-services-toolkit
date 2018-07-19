@@ -17,12 +17,12 @@ namespace SpeechServicesToolkit.TTS
     /// <summary>
     /// Sample synthesize request
     /// </summary>
-    public class TTSServiceClient
+    public class Talker
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="TTSServiceClient"/> class.
+        /// Initializes a new instance of the <see cref="Talker"/> class.
         /// </summary>
-        public TTSServiceClient()
+        public Talker()
         {
         }
 
@@ -41,7 +41,7 @@ namespace SpeechServicesToolkit.TTS
         /// </summary>
         /// <param name="cancellationToken">The cancellation token.</param>
         /// <returns>A Task</returns>
-        public Task Speak(CancellationToken cancellationToken, TTSRequestParameters parameters)
+        public Task Speak(CancellationToken cancellationToken, TalkerParameters parameters)
         {
             var requestBuilder = new TTSRequestBuilder();
 

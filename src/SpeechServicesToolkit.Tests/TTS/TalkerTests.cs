@@ -11,7 +11,7 @@ using SpeechServicesToolkit.TTS;
 namespace SpeechServicesToolkit.Tests
 {
     [TestClass]
-    public class TTSServiceClientTests
+    public class TalkerTests
     {
         private string _accessToken;
 
@@ -32,7 +32,7 @@ namespace SpeechServicesToolkit.Tests
         public void VoiceNameTest()
         {
             var ssmlBuilder = new SimpleTextSsmlBuilder();
-            var serviceClient = new TTSServiceClient();
+            var serviceClient = new Talker();
 
             serviceClient.OnAudioAvailable += PlayAudio;
             serviceClient.OnError += ErrorHandler;
@@ -43,7 +43,7 @@ namespace SpeechServicesToolkit.Tests
 
             string ssml = ssmlBuilder.GenerateSsml("en-US", voiceName, "Hello. You are so awesome!");
 
-            var requestParams = new TTSRequestParameters()
+            var requestParams = new TalkerParameters()
             {
                 AuthorizationToken = _accessToken,
                 RequestUri = _requestUri,
