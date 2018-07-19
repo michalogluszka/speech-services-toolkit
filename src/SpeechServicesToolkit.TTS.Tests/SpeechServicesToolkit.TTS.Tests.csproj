@@ -55,10 +55,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SpeechServicesToolkit.Authorization\SpeechServicesToolkit.Authorization.csproj">
-      <Project>{5c7288b6-f6e9-4efd-a33f-3bdc1a6a976c}</Project>
-      <Name>SpeechServicesToolkit.Authorization</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SpeechServicesToolkit.TTS\SpeechServicesToolkit.TTS.csproj">
       <Project>{30fcb3a7-90d3-49ad-afdb-d013e49b521a}</Project>
       <Name>SpeechServicesToolkit.TTS</Name>
