@@ -56,7 +56,7 @@ namespace SpeechServicesToolkit.Tests
 
         private static void PlayAudio(object sender, GenericEventArgs<Stream> args)
         {
-            Console.WriteLine(args.EventData);
+            Debug.WriteLine(args.EventData);
 
             // For SoundPlayer to be able to play the wav file, it has to be encoded in PCM.
             // Use output audio format AudioOutputFormat.Riff16Khz16BitMonoPcm to do that.
@@ -72,7 +72,7 @@ namespace SpeechServicesToolkit.Tests
         /// <param name="e">The <see cref="GenericEventArgs{Exception}"/> instance containing the event data.</param>
         private static void ErrorHandler(object sender, GenericEventArgs<Exception> e)
         {
-            Console.WriteLine("Unable to complete the TTS request: [{0}]", e.ToString());
+            Debug.WriteLine("Unable to complete the TTS request: [{0}]", e.ToString());
             Assert.Fail("Failed to connect to server");
         }
     }
