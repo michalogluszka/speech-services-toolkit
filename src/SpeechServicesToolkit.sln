@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechServicesToolkit.TTS", "SpeechServicesToolkit.TTS\SpeechServicesToolkit.TTS.csproj", "{30FCB3A7-90D3-49AD-AFDB-D013E49B521A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechServicesToolkit", "SpeechServicesToolkit.TTS\SpeechServicesToolkit.csproj", "{30FCB3A7-90D3-49AD-AFDB-D013E49B521A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechServicesToolkit.TTS.Tests", "SpeechServicesToolkit.TTS.Tests\SpeechServicesToolkit.TTS.Tests.csproj", "{AF895B7C-3685-4F78-9509-34C88AAC0DD1}"
 EndProject

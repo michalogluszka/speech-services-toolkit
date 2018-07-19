@@ -55,9 +55,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SpeechServicesToolkit.TTS\SpeechServicesToolkit.TTS.csproj">
+    <ProjectReference Include="..\SpeechServicesToolkit.TTS\SpeechServicesToolkit.csproj">
       <Project>{30fcb3a7-90d3-49ad-afdb-d013e49b521a}</Project>
-      <Name>SpeechServicesToolkit.TTS</Name>
+      <Name>SpeechServicesToolkit</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
