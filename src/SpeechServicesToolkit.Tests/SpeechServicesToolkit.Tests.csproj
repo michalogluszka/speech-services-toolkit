@@ -55,8 +55,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SpeechServicesToolkit.TTS\SpeechServicesToolkit.csproj">
-      <Project>{30fcb3a7-90d3-49ad-afdb-d013e49b521a}</Project>
+    <ProjectReference Include="..\SpeechServicesToolkit\SpeechServicesToolkit.csproj">
+      <Project>{0bc7c9d3-309d-45a6-8f11-79f81ff93fb8}</Project>
       <Name>SpeechServicesToolkit</Name>
     </ProjectReference>
   </ItemGroup>

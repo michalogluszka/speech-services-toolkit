@@ -8,7 +8,7 @@ using SpeechServicesToolkit.Authorization;
 using SpeechServicesToolkit.Authorization.Providers;
 using SpeechServicesToolkit.TTS;
 
-namespace Donna.Core.TTS.Client.Tests
+namespace SpeechServicesToolkit.Tests
 {
     [TestClass]
     public class TTSServiceClientTests

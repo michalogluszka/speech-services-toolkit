@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechServicesToolkit", "SpeechServicesToolkit\SpeechServicesToolkit.csproj", "{0BC7C9D3-309D-45A6-8F11-79F81FF93FB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechServicesToolkit.TTS.Tests", "SpeechServicesToolkit.Tests\SpeechServicesToolkit.TTS.Tests.csproj", "{AF895B7C-3685-4F78-9509-34C88AAC0DD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechServicesToolkit.Tests", "SpeechServicesToolkit.Tests\SpeechServicesToolkit.Tests.csproj", "{AF895B7C-3685-4F78-9509-34C88AAC0DD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
