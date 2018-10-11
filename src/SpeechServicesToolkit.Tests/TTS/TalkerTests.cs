@@ -15,12 +15,12 @@ namespace SpeechServicesToolkit.Tests
     {
         private string _accessToken;
 
-        private Uri _requestUri = new Uri("https://westus.tts.speech.microsoft.com/cognitiveservices/v1");
+        private Uri _requestUri = new Uri("https://westeurope.tts.speech.microsoft.com/cognitiveservices/v1");
 
         [TestInitialize]
         public void Initialize()
         {
-            Uri issueTokenUri = new Uri("https://westus.api.cognitive.microsoft.com/sts/v1.0/issuetoken");
+            Uri issueTokenUri = new Uri("https://westeurope.api.cognitive.microsoft.com/sts/v1.0/issuetoken");
 
             ISubscriptionKeyProvider provider = new SubscriptionKeyEnviromentVariableProvider("SpeechServiceSubscriptionKey");
             var auth = new AzureAuthToken(provider, issueTokenUri);
