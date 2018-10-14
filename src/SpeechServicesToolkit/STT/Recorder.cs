@@ -1,4 +1,5 @@
-﻿using System;
+﻿//using Microsoft.CognitiveServices.Speech;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,7 +16,9 @@ namespace SpeechServicesToolkit.STT
 
         public void Record()
         {
+            //var config = SpeechConfig.FromSubscription("4736fd6ff8bb40bcb3cf01611b90c16a", "westeurope");
             
+
         }
     }
 }
